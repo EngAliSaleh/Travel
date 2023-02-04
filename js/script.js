@@ -1,3 +1,4 @@
+document.oncontextmenu = function(){return false;}
 const header = document.querySelector("header");
 
 window.addEventListener ("scroll", function() {
